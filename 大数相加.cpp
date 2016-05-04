@@ -14,21 +14,21 @@
 void print(char c[]);
 void bigNumAdd(char a[], char b[], char sum[]);
 
-//int main()
-//{
-//	char a[MAX];
-//	char b[MAX];
-//	char sum[MAX];
-//	
-//	gets(a);
-//	gets(b);
-//	
-//	bigNumAdd(a, b, sum);
-//	
-//	print(sum);
-//	
-//	return 0;
-//}
+int main()
+{
+	char a[MAX];
+	char b[MAX];
+	char sum[MAX];
+	
+	gets(a);
+	gets(b);
+	
+	bigNumAdd(a, b, sum);
+	
+	print(sum);
+	
+	return 0;
+}
 
 void bigNumAdd(char *a, char b[], char sum[])
 {
